@@ -1,0 +1,48 @@
+form{
+    /* background-color: black; */
+    width: 63%;
+    float: right;
+    height: 100vh;
+    
+}
+.name{
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #eeeeee;
+    width: 33%;
+    /* margin-top: 12%; */
+}
+.phNo{
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #eeeeee;
+    width: 33%;
+    /* margin-top: 12%; */
+    margin-left: 15%;
+}
+
+.error {
+    border-bottom-color: red;
+}
+label{
+    font-weight: bold;
+    /* margin-top: 12%; */
+}
+.leftHalf {
+    background: url('../images/formImg.PNG');
+    width: 26%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0px;
+    height: 100%;
+    
+    /* margin-bottom: -2%; */
+ }
+ .rightHalf {
+
+    width: 62%;
+    position: absolute;
+    right: 0px;
+    height: 100%;
+ }
